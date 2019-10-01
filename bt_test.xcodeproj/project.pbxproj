@@ -12,6 +12,7 @@
 		A2805FB52321F66A000A0F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2805FB32321F66A000A0F05 /* Main.storyboard */; };
 		A2805FB72321F66B000A0F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2805FB62321F66B000A0F05 /* Assets.xcassets */; };
 		A2805FBA2321F66B000A0F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2805FB82321F66B000A0F05 /* LaunchScreen.storyboard */; };
+		A2805FC523221428000A0F05 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2805FC423221428000A0F05 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A2805FB62321F66B000A0F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2805FB92321F66B000A0F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2805FBB2321F66B000A0F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2805FC423221428000A0F05 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2805FC523221428000A0F05 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				A2805FAE2321F66A000A0F05 /* bt_test */,
 				A2805FAD2321F66A000A0F05 /* Products */,
+				A2805FC323221428000A0F05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				A2805FBB2321F66B000A0F05 /* Info.plist */,
 			);
 			path = bt_test;
+			sourceTree = "<group>";
+		};
+		A2805FC323221428000A0F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2805FC423221428000A0F05 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
